@@ -1,0 +1,25 @@
+{
+  "name": "ts-eslint-eslint-9.15.0-bug",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "",
+  "license": "Apache-2.0",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "npm run build && npm run lint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.15.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0"
+  }
+}
